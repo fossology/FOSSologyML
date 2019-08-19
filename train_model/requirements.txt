@@ -1,0 +1,2 @@
+mongoengine
+python-dotenv

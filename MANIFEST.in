@@ -1,0 +1,3 @@
+include rigel/default_model/.gitkeep
+include rigel/server/rigelapp.wsgi
+include rigel/server/rigel_apache.conf
