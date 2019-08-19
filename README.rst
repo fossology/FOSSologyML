@@ -1,9 +1,7 @@
-rigel
+FOSSologyML
 ===========
 
-Open Source License Classifier, driven by Machine Learning.
-
-Could be used as a standalone rigel-cli or started as a simple server with rigel-server.
+Open Source License Classifier, driven by Machine Learning. FOSSologyML is a toolkit which introduces a new agent for fossology: rigel. This new agent can be used as a standalone rigel-cli or started as a simple server with rigel-server.
 
 
 Installation
@@ -11,11 +9,11 @@ Installation
 
 ::
 
-    pip install git+https://github.com/mcjaeger/rigel.git
+    pip install git+https://github.com/fossology/FOSSologyML.git
 
 Or in a develop mode after downloading a zip or cloning the git repository ::
 
-    git clone https://github.com/mcjaeger/rigel.git
+    git clone https://github.com/fossology/FOSSologyML.git
     cd
     pip install -e .
 
@@ -42,7 +40,7 @@ To start all tests run ::
 To generate documentation with Sphinx run ::
 
     cd docs
-    sphinx-apidoc ../rigel/ -f -o .
+    sphinx-apidoc ../FOSSologyML/ -f -o .
     make html
 
 To package make sure you have the following installed ::
