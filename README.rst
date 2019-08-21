@@ -1,7 +1,9 @@
 FOSSologyML
 ===========
 
-Open Source License Classifier, driven by Machine Learning. FOSSologyML is a toolkit which introduces a new agent for fossology: rigel. This new agent can be used as a standalone rigel-cli or started as a simple server with rigel-server.
+Open Source License Classifier, driven by Machine Learning. FOSSologyML is a toolkit which introduces a new scan tool for FOSSology: rigel.
+
+This new tool can be used as a standalone rigel-cli or started as a simple server with rigel-server. A FOSSology wrapper agent communicates then with the rigel-server. Opposed to nomos, which can be started at every scan, it is better to have rigel running, because of the longer initialisation times for the classifier.
 
 
 Installation
