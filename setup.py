@@ -58,7 +58,7 @@ setup(
         'spacy==2.1.0',
         'Sphinx==1.8.0',
         'patool==1.12',
-        'lxml==4.2.4',
+        'lxml==4.6.2',
     ],
     test_suite='test',
     tests_require=[
