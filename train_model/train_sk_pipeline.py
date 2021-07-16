@@ -70,6 +70,11 @@ def single_label(x_train, y_train, name="SP"):
 
     model = LinearSVC(random_state=0)
     model.fit(x_train, y_train)
+    
+    print("******************Accuracy Start***************")
+    yhat = model.predict(x_train)
+    print('Accuracy for train data:', accuracy_score(y_train, yhat))    
+    print("******************Accuracy End*****************")
 
     return SKLearnProblem(name, le, model, vct)
 
@@ -90,6 +95,11 @@ def multi_label(x_train, y_train, name="MP"):
 
     model = ClassifierChain(LinearSVC(random_state=0))
     model.fit(x_train, y_train.todense())
+
+    print("******************Accuracy Start***************")
+    yhat = model.predict(x_train)
+    print('Accuracy for train data:', accuracy_score(y_train, yhat))    
+    print("******************Accuracy End*****************")
 
     return SKLearnProblem(name, le, model, vct)
 
@@ -114,6 +124,11 @@ def single_multi_or_no_license(x_train_single, y_train_single, x_train_multi, y_
 
     model = LinearSVC(random_state=0)
     model.fit(x_train, y_train)
+
+    print("******************Accuracy Start***************")
+    yhat = model.predict(x_train)
+    print('Accuracy for train data:', accuracy_score(y_train, yhat))    
+    print("******************Accuracy End*****************")
 
     return SKLearnProblem(name, le, model, vct)
 
