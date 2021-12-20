@@ -59,6 +59,7 @@ setup(
         'Sphinx==1.8.0',
         'patool==1.12',
         'lxml==4.2.4',
+        'Nirjas==0.0.5',
     ],
     test_suite='test',
     tests_require=[
