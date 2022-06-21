@@ -50,7 +50,7 @@ setup(
         'Flask-RESTful==0.3.7',
         'flask-restful-swagger==0.20.1',
         'h5py==2.9.0',
-        'numpy==1.16.2',
+        'numpy==1.22.0',
         'python-magic==0.4.15',
         'scipy==1.2.1',
         'scikit-learn==0.20.3',
