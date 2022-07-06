@@ -58,7 +58,7 @@ setup(
         'spacy==2.1.0',
         'Sphinx==1.8.0',
         'patool==1.12',
-        'lxml==4.6.5',
+        'lxml==4.9.1',
         'Nirjas==0.0.5',
     ],
     test_suite='test',
