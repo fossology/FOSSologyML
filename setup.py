@@ -46,7 +46,7 @@ setup(
         'beautifulsoup4==4.7.1',
         'click==7.0',
         'click-log==0.3.2',
-        'Flask==1.0.2',
+        'Flask==2.3.2',
         'Flask-RESTful==0.3.7',
         'flask-restful-swagger==0.20.1',
         'h5py==2.9.0',
