@@ -52,7 +52,7 @@ setup(
         'h5py==2.9.0',
         'numpy==1.22.0',
         'python-magic==0.4.15',
-        'scipy==1.2.1',
+        'scipy==1.10.0',
         'scikit-learn==0.20.3',
         'scikit-multilearn==0.2.0',
         'spacy==2.1.0',
